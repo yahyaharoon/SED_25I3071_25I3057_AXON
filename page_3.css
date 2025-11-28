@@ -1,0 +1,175 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND */
+body {
+    background: #1e1e1e;
+    color: white;
+}
+
+/* HEADER */
+.top-logo-area {
+    background: #0a0f08;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-logo {
+    width: 110px;
+}
+
+.green-bar {
+    background: #0b440d;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    color: white;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    width: 180px;
+}
+
+.search-btn,
+.cart-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* NAV BAR */
+.main-nav {
+    background: black;
+    padding: 10px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    background: #3d7f3b;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-text {
+    line-height: 1.6;
+    font-size: 17px;
+    max-width: 250px;
+}
+
+.rocket-img {
+    width: 120px;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+}
+
+/* VALUE SECTION */
+.value-section {
+    padding: 40px 20px;
+}
+
+.value-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.value-box {
+    padding: 40px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* COLORED BOXES */
+.blue {
+    background: #0054ff;
+}
+
+.grey {
+    background: #4d4d4d;
+}
+
+.yellow {
+    background: #ffd800;
+}
+
+.graphic1 {
+    background: url('graphic1.png') center/cover no-repeat;
+}
+
+.graphic2 {
+    background: url('graphic2.png') center/cover no-repeat;
+}
+
+/* DIFFERENCE SECTION */
+.difference-section {
+    padding: 40px 20px;
+}
+
+.difference-section h2 {
+    margin-bottom: 20px;
+}
+
+.difference-text h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.difference-text p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    background: #111;
+}
