@@ -1,63 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>AXON — Build Your Body</title>
-  <!-- Link to your CSS file -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AXON – Build Your Body</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- TOP LOGO + GREEN BRAND BAR -->
-  <header class="site-header">
-    <div class="top-visual">
-      <!-- Dark top area with logo graphic centered -->
-      <div class="logo-wrap">
-        <img src="logo.svg" alt="Axon logo" class="logo-graphic" />
+
+  <!-- TOP AREA WITH LOGO -->
+  <header class="top-header">
+    <div class="top-logo-area">
+      <img src="logo.png" class="main-logo" alt="Axon Logo">
+    </div>
+
+    <!-- GREEN BAR -->
+    <div class="green-bar">
+      <h1 class="brand-name">AXON</h1>
+
+      <div class="search-box">
+        <input type="search" placeholder="What do you need?">
+        <button class="search-btn">🔍</button>
+        <button class="cart-btn">🛒</button>
+        <button class="profile-btn">👤</button>
       </div>
     </div>
 
-    <div class="brand-bar">
-      <div class="brand-inner">
-        <div class="axon-title">AXON</div>
-
-        <div class="search-cart">
-          <label for="site-search" class="visually-hidden">Search</label>
-          <input id="site-search" type="search" placeholder="What do you need?" />
-          <button aria-label="Search" class="icon-btn search">🔍</button>
-          <button aria-label="Cart" class="icon-btn cart">🛒</button>
-          <button aria-label="Account" class="icon-btn account">👤</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- NAVIGATION BLACK ROW -->
-    <nav class="main-nav" aria-label="Main navigation">
+    <!-- BLACK NAV BAR -->
+    <nav class="main-nav">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
-        <li><a href="#">Personal growth</a></li>
+        <li><a href="#">Personal Growth</a></li>
         <li><a href="#">Wishlist</a></li>
         <li><a href="#">Account</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- HERO — background image (centered muscular back silhouette) -->
-  <section class="hero" role="region" aria-label="Hero">
-    <!-- The background image should be applied via CSS to .hero (hero-bg.jpg) -->
-    <div class="hero-inner">
-      <h1 class="hero-title">Build <span class="pixel">Your Body</span></h1>
-      <h2 class="hero-sub">Transform Life</h2>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2 class="hero-title">
+      Build <span>Your Body</span>
+    </h2>
+    <h3 class="hero-sub">Transform Life</h3>
+  </section>
+
+  <!-- PRODUCT SECTION -->
+  <section class="product-section">
+    <div class="product-card">
+      <div class="image-frame">
+        <img src="protein.png" alt="Protein Powder">
+      </div>
+      <h4>Protein Powder</h4>
+      <p class="price">$ 199</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="product-card">
+      <div class="image-frame">
+        <img src="creatine.png" alt="Creatine Powder">
+      </div>
+      <h4>Creatine Powder</h4>
+      <p class="price">$ 249</p>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="product-card">
+      <div class="image-frame">
+        <img src="whey.png" alt="Whey Powder">
+      </div>
+      <h4>Whey Powder</h4>
+      <p class="price">$ 199</p>
+      <div class="stars">★★★★★</div>
     </div>
   </section>
 
-  <!-- PRODUCTS GRID -->
-  <main>
-    <section class="products" aria-label="Featured products">
-      <ul class="product-grid">
-        <li class="product">
-          <div class="image-frame">
-            <img src="product-protein.png" alt="Protein
+  <!-- CTA SECTION -->
+  <section class="cta-section">
+    <h3>Wanna Transform Your Body?</h3>
+    <button class="cta-btn">Contact us</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-socials">
+      <a href="#">📘</a>
+      <a href="#">📷</a>
+      <a href="#">G</a>
+    </div>
+    <p>© 2025 Axon. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
