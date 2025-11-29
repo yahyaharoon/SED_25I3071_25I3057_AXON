@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+}
+
+/* TOP GREEN HEADER */
+.top-header {
+    background: #49912d;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+.search-bar input {
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: none;
+    width: 220px;
+}
+
+.cart-icon {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    font-size: 22px;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.profile-circle {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+/* MAIN CONTENT */
+.cart-container {
+    background: #f4f9f8;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.left-cart {
+    width: 60%;
+}
+
+.left-cart h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.product-img {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.price {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* SUMMARY BOX */
+.summary-box {
+    background: #d6eee8;
+    padding: 25px;
+    width: 35%;
+    border-radius: 5px;
+}
+
+.promo {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #49912d;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}

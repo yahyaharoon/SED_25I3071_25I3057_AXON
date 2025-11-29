@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="page_8.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart - AXON</title>
@@ -19,3 +20,58 @@
 
         <div class="cart-icon">🛒</div>
     </header>
+
+    <!-- MAIN CART AREA -->
+    <section class="cart-container">
+
+        <div class="left-cart">
+            <h2>shopping cart</h2>
+
+            <!-- PRODUCT ITEM 1 -->
+            <div class="cart-item">
+                <img src="images/creatine.png" class="product-img">
+                <div class="item-details">
+                    <h3>Creatine Powder</h3>
+                    <p>Qty 3 · | ·</p>
+                </div>
+                <div class="price">$750.00</div>
+            </div>
+
+            <!-- PRODUCT ITEM 2 -->
+            <div class="cart-item">
+                <img src="images/whey.png" class="product-img">
+                <div class="item-details">
+                    <h3>Whey Powder</h3>
+                    <p>Qty 1 · | ·</p>
+                </div>
+                <div class="price">$199.00</div>
+            </div>
+
+        </div>
+
+        <!-- SUMMARY BOX -->
+        <div class="summary-box">
+            <input class="promo" type="text" placeholder="enter promo code or gift card number">
+
+            <div class="summary-line">
+                <span>subtotal</span>
+                <span>$949.00</span>
+            </div>
+
+            <div class="summary-line">
+                <span>estimated shipping</span>
+                <span>$00.00</span>
+            </div>
+
+            <div class="summary-line total">
+                <span>total</span>
+                <span>$949.00</span>
+            </div>
+
+            <button class="checkout-btn">checkout</button>
+        </div>
+
+    </section>
+
+</body>
+</html>
