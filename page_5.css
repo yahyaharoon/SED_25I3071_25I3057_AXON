@@ -1,0 +1,452 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* --- Header --- */
+header {
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #5cb85c; /* The bright green color */
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 100px; /* Offset to center visually */
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    outline: none;
+    width: 250px;
+}
+
+.search-box input::placeholder {
+    color: #e0e0e0;
+}
+
+.search-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    opacity: 0.6;
+}
+
+.cart-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.user-icon {
+    position: absolute;
+    right: 50px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* --- Main Product Section --- */
+.product-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    gap: 50px;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Left: Gallery */
+.product-gallery {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Creating the decorative leaf effect with pseudo elements/CSS */
+.bg-leaf {
+    position: absolute;
+    border: 1px solid #d4e6d4;
+    border-radius: 50% 0 50% 0;
+    z-index: -1;
+}
+
+.bg-leaf-1 {
+    width: 200px;
+    height: 100px;
+    top: -20px;
+    left: -50px;
+    transform: rotate(-20deg);
+}
+
+.main-image img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+
+.thumbnails {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.thumb-img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.thumb-img.active {
+    border-color: #333;
+}
+
+.thumb-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.arrow-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Right: Details */
+.product-details {
+    flex: 1;
+    text-align: left;
+}
+
+.product-details h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.stock-badge {
+    display: inline-block;
+    background-color: #5d4e3e; /* Brownish grey */
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 40px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: #ffaa00;
+}
+
+.separator {
+    color: #ccc;
+}
+
+.price {
+    color: #4CAF50;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+
+/* Controls */
+.purchase-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.size-select {
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    background: #f9f9f9;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+.quantity-counter {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.quantity-counter button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555;
+    padding: 0 10px;
+}
+
+.quantity-counter span {
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.btn-add-cart {
+    background-color: #1A3C34; /* Dark green */
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-add-cart:hover {
+    background-color: #142e28;
+}
+
+/* Trust Signals */
+.trust-signals {
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.trust-signals i {
+    margin-right: 5px;
+}
+
+.guarantee i {
+    color: #ffaa00; /* Orange check */
+}
+
+/* Tabs */
+.info-tabs {
+    display: flex;
+    background: #f0f2f5;
+    border-radius: 25px;
+    padding: 4px;
+    display: inline-flex;
+}
+
+.tab-btn {
+    border: none;
+    background: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #777;
+    font-weight: 600;
+}
+
+.tab-btn.active {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* --- Reviews Section --- */
+.reviews-section {
+    max-width: 1200px;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+
+.reviews-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.reviews-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.review-content {
+    flex: 1;
+    text-align: left;
+}
+
+.review-content h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.review-content .date {
+    font-size: 10px;
+    color: #999;
+}
+
+.review-star {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+}
+
+.review-star i {
+    color: #ffaa00;
+    margin-right: 5px;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.footer-logo-graphic {
+    margin-bottom: 10px;
+}
+
+.footer-brand {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+    }
+    .top-bar {
+        padding: 15px 20px;
+    }
+    .logo {
+        margin-left: 0;
+        text-align: left;
+        font-size: 24px;
+    }
+    .main-nav ul {
+        display: none; /* Hide nav links on mobile for simplicity */
+    }
+    .reviews-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
