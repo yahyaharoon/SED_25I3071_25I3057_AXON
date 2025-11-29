@@ -7,7 +7,7 @@ body {
 }
 
 .header-green {
-  background-color: #7fb36b;
+  background-color: #49912d;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -15,8 +15,9 @@ body {
 }
 
 .logo {
+  margin-left: 600px;
   font-family: 'VT323', monospace;
-  font-size: 64px;
+  font-size: 80px;
   letter-spacing: 18px;
   color: #000;
 }
@@ -93,7 +94,7 @@ body {
 }
 
 .card .price {
-  background-color: #7fb36b;
+  background-color: #49912d;
   padding: 10px;
   margin: 15px auto;
   width: 70%;
