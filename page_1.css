@@ -13,7 +13,7 @@ body {
 
 /* TOP LOGO AREA */
 .top-logo-area {
-  background: #0a0f08;
+  background: #2a6713;
   padding: 25px 0;
   text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 
 /* GREEN BAR */
 .green-bar {
-  background: #0b440d;
+  background: #2a6713;
   padding: 15px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -38,6 +38,7 @@ body {
   letter-spacing: 5px;
   text-align: center;
   grid-column: 2;
+  font-family: 'vt323', monospace;
 }
 
 .search-box {
