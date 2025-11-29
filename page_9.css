@@ -18,7 +18,7 @@ body {
 
 .left-sidebar {
     width: 80px;
-    background: #8ac67a;
+    background: #49912d;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -57,7 +57,7 @@ body {
 .top-header h1 {
     margin: 0;
     font-size: 32px;
-    color: #2a59da;
+    color: #000000;
 }
 
 /* ---------- NAVBAR ---------- */
@@ -111,7 +111,7 @@ body {
 }
 
 .positive {
-    color: #4caf50;
+    color: #49912d;
 }
 
 .small-btn {
@@ -151,7 +151,7 @@ body {
 }
 
 .steps {
-    color: #94b000;
+    color: #49912d;
 }
 
 .semi-gauge {
@@ -163,7 +163,7 @@ body {
 }
 
 .spotify-btn {
-    background: #a0be75;
+    background: #49912d;
     padding: 12px 20px;
     border-radius: 25px;
     border: none;
@@ -177,7 +177,7 @@ body {
 }
 
 .premium-box {
-    background: #d7f0c7;
+    background: #49912d;
     padding: 25px;
     border-radius: 20px;
 }
@@ -222,7 +222,7 @@ body {
 }
 
 .discount-btn {
-    background: #6b79ff;
+    background: #49912d;
     border: none;
     padding: 8px 25px;
     border-radius: 20px;
