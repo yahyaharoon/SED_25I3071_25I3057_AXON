@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    background: #1f1f1f;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- LAYOUT WRAPPER ---------- */
+
+.page-background {
+    width: 90%;
+    margin: 30px auto;
+    background: #f6f8fc;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* ---------- LEFT SIDEBAR ---------- */
+
+.left-sidebar {
+    width: 80px;
+    background: #8ac67a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.logo-circle {
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.side-icons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 22px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+/* ---------- TOP HEADER ---------- */
+
+.top-header {
+    height: 70px;
+    background: #d6d6d6;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #2a59da;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar {
+    background: #000;
+    height: 55px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    gap: 35px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar a.active {
+    color: #ffd86b;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+
+.content {
+    margin-left: 110px;
+    padding: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+/* LEFT SECTION */
+
+.left-section {
+    width: 60%;
+}
+
+/* Stats Box */
+
+.stats-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.stats-box h1 {
+    margin: 10px 0;
+}
+
+.positive {
+    color: #4caf50;
+}
+
+.small-btn {
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #ddd;
+    border: none;
+}
+
+/* Chart Box */
+
+.chart {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.percent {
+    background: #c8ffee;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.graph-placeholder {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #ddd, #bcbcbc);
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+/* Daily Goal */
+
+.goal-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.steps {
+    color: #94b000;
+}
+
+.semi-gauge {
+    width: 160px;
+    height: 90px;
+    background: conic-gradient(#f4c430 0deg, #f4c430 140deg, #fff 140deg);
+    border-radius: 150px 150px 0 0;
+    margin: 20px 0;
+}
+
+.spotify-btn {
+    background: #a0be75;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ---------- RIGHT SECTION ---------- */
+
+.right-section {
+    width: 40%;
+}
+
+.premium-box {
+    background: #d7f0c7;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.activity-item {
+    background: white;
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #eef0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-right: 12px;
+}
+
+.amount {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer-banner {
+    margin-left: 80px;
+    margin-top: 20px;
+    background: #000;
+    color: white;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount-btn {
+    background: #6b79ff;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
