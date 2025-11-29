@@ -8,7 +8,7 @@ body {
 
 /* HEADER */
 .header-green {
-  background-color: #7fb36b;
+  background-color: #49912d;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,7 @@ body {
 
 .logo {
   font-family: 'VT323', monospace;
+  margin-left: 600px;
   font-size: 64px;
   letter-spacing: 18px;
   color: #000;
@@ -103,7 +104,7 @@ body {
 }
 
 .send-btn {
-  background-color: #7fb36b;
+  background-color: #49912d;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -118,7 +119,7 @@ body {
 }
 
 .faq-section h2 {
-  background-color: #7fb36b;
+  background-color: #49912d;
   display: inline-block;
   padding: 8px 30px;
   border-radius: 8px;
@@ -134,7 +135,7 @@ body {
 }
 
 .faq-item {
-  background-color: #7fb36b;
+  background-color: #49912d;
   padding: 20px;
   border-radius: 40px;
   color: #000;
