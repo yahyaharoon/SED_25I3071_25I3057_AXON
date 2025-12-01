@@ -4,160 +4,144 @@
     <link rel="stylesheet" href="page_4.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatine Powder – Axon</title>
+    <title>Mass Powder – Axon</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-top">
-            <div class="logo">AXON</div>
+    <!-- HEADER TOP SECTION -->
+    <header class="header-top">
+        <div class="logo">A X O N</div>
 
-            <div class="search-cart">
-                <div class="search-box">
-                    <input type="text" placeholder="What do you need?">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <div class="cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-            </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you need?">
+            <img src="search.png" class="search-icon">
+            <img src="cart.png" class="cart-icon">
         </div>
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Personal growth</a></li>
-                <li><a href="#">Wishlist</a></li>
-                <li><a href="#">Account</a></li>
-            </ul>
-            <div class="user-icon">
-                <i class="fa-solid fa-circle-user"></i>
-            </div>
-        </nav>
     </header>
 
-    <!-- MAIN PRODUCT SECTION -->
-    <main class="product-container">
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+        <a href="#">Products</a>
+        <a href="#">Personal growth</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Account</a>
+    </nav>
 
-        <div class="product-gallery">
-            <div class="main-image">
-                <img src="Images/Creatine Powder.png" alt="Creatine Powder Bottle">
-            </div>
+    <!-- BACKGROUND DECORATION -->
+    <img src="leaf-left.png" class="leaf-left">
+    <img src="leaf-right.png" class="leaf-right">
+
+    <!-- PRODUCT MAIN SECTION -->
+    <section class="product-container">
+
+        <!-- PRODUCT LEFT SIDE -->
+        <div class="product-images">
+            <img src="Images/Creatine Powder.png" class="main-image">
 
             <div class="thumbnails">
-                <button class="arrow-btn"><i class="fa-solid fa-arrow-left"></i></button>
-                <div class="thumb-img active">
-                    <img src="Images/Creatine Powder.png" alt="Thumbnail 1">
-                </div>
-                <button class="arrow-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                <img src="Images/Creatine Powder.png">
+                <img src="Images/Creatine Powder.png">
             </div>
         </div>
 
+        <!-- PRODUCT RIGHT SIDE INFO -->
         <div class="product-details">
-            <h2>Creatine Powder</h2>
-            <div class="stock-badge">In Stock</div>
+
+            <h2 class="title">Mass Powder</h2>
+
+            <div class="stock">In Stock</div>   
 
             <div class="rating-row">
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                <span class="review-count">109 reviews</span>
-                <span class="separator">|</span>
-                <span class="weight">300 gm</span>
+                <span class="stars">★★★★★</span>
+                <span class="reviews">252 reviews</span>
+                <span class="size">500gm</span>
             </div>
 
-            <div class="price">$ 249.99</div>
+            <div class="price">$ 149.99</div>
 
             <p class="description">
-                Fuel high-intensity performance. AXON’s Creatine Monohydrate increases ATP energy, enhances muscle 
-                loading & strength training output. Ideal for athletes who want more energy during short-duration lifts.
+                Engineered for fast growth. AXON's Mass Powder delivers a targeted blend 
+                of carbs, protein, and complex nutrients designed for clean, rapid mass gain. 
+                Perfect for athletes and lifters at every stage.
             </p>
 
-            <div class="purchase-controls">
-                <select class="size-select">
-                    <option>300 gm</option>
-                    <option>500 gm</option>
+            <div class="purchase-box">
+
+                <select class="weight-select">
+                    <option>500gm</option>
+                    <option>1kg</option>
                 </select>
 
-                <div class="quantity-counter">
-                    <button class="dec-btn">-</button>
-                    <span class="quantity-value">1</span>
-                    <button class="inc-btn">+</button>
+                <div class="quantity-box">
+                    <button>-</button>
+                    <input type="text" value="1" readonly>
+                    <button>+</button>
                 </div>
 
-                <button class="btn-add-cart">Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
             </div>
 
-            <div class="trust-signals">
-                <div class="wishlist">
-                    <i class="fa-regular fa-heart"></i> Add to wishlist
-                </div>
-                <div class="guarantee">
-                    <i class="fa-solid fa-check"></i> 30 days money back guarantee
-                </div>
+            <div class="options">
+                <label><input type="checkbox"> Add to wishlist</label>
+                <label><input type="checkbox"> 30 days money-back guarantee</label>
             </div>
 
-            <div class="info-tabs">
-                <button class="tab-btn active">Details</button>
-                <button class="tab-btn">Packaging</button>
-                <button class="tab-btn">Shipping details</button>
+            <div class="tabs">
+                <button>Details</button>
+                <button>Packaging</button>
+                <button>Shipping details</button>
             </div>
+
         </div>
-
-    </main>
-
-    <!-- REVIEWS SECTION -->
-    <section class="reviews-section">
-        <h3>Reviews & Rating</h3>
-        <div class="reviews-grid">
-            <div class="review-card">
-                <div class="avatar">
-                    <img src="Images/p1.jpg" alt="User">
-                </div>
-                <div class="review-content">
-                    <h4>Aaron Siphron</h4>
-                    <span class="date">May 12, 2024</span>
-                </div>
-                <div class="review-star">
-                    <i class="fa-solid fa-star"></i> 4.9
-                </div>
-            </div>
-
-            <div class="review-card">
-                <div class="avatar">
-                    <img src="Images/p2.jpg" alt="User">
-                </div>
-                <div class="review-content">
-                    <h4>Irteza</h4>
-                    <span class="date">May 12, 2024</span>
-                </div>
-                <div class="review-star">
-                    <i class="fa-solid fa-star"></i> 4.9
-                </div>
-            </div>
-        </div>
-        <img src="Images/Logo.png" alt="Axon small logo">
     </section>
 
-    <footer>
-        <div class="footer-brand">AXON</div>
-        <div class="social-icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-google"></i>
-        </div>
-    </footer>
+    <!-- REVIEW SECTION -->
+    <section class="reviews-section">
+        <h2>Reviews & Rating</h2>
 
-<script src="javascript_page_4.js"></script>
+        <div class="review-cards">
+
+            <div class="review-card">
+                <img src="Images/p3.jpg" class="avatar">
+                <div class="stars">★★★★★</div>
+                <p>Great product!</p>
+            </div>
+
+            <div class="review-card">
+                <img src="Images/p2.jpg" class="avatar">
+                <div class="stars">★★★★☆</div>
+                <p>Good value for money.</p>
+            </div>
+
+            <div class="review-card">
+                <img src="Images/p1.jpg" class="avatar">
+                <div class="stars">★★★★★</div>
+                <p>Highly recommended.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-icons">
+            <img src="Images/fb.webp">
+            <img src="Images/ins.avif">
+            <img src="Images/Google.jpg">
+        </div>
+
+        <img src="Images/Logo.png" class="footer-logo">
+
+        <p>© 2025 Axon. All Rights Reserved.</p>
+    </footer>
+<script src="java_page_4.js"></script>
+
+
 </body>
 </html>
